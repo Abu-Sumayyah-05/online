@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #ffff;
+    color: #222;
+    padding:0 20px;
+}
+
+header{
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #bb9457, #e9c46a);
+    color: #fff;
+}
+
+.hero-image{
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+header h1{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display:inline-block;
+    background-color: #222;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #222;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #bb9457;
+    margin-bottom: 15px;
+}
+
+section p,
+section ul {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+ul li{
+    margin-bottom: 8px;
+}
+
+.cta {
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+     background: linear-gradient(to right, #bb9457, #e9c46a);
+    color: #fff;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
+.boy{
+    width: 200px;
+    height: 200px;
+}
+.set{
+    display: flex;
+    flex-direction: column;
+}
+.aud{
+    display: flex;
+    flex-direction: column;
+}
+.inst{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    
+    img{
+        width: 70px;
+        height: auto;
+    }
+}
+@media (max-width: 600px) {
+    header h1{
+        font-size: 1.8rem;
+    }
+
+    header p{
+        font-size: 1rem;
+    }
+    .hero_image{
+        max-width: 120px;
+    }
+    section{
+        padding: 20px 10px;
+    }
+    section h2{
+        font-size: 1.4rem;
+    }
+    .btn{
+        font-size: 1rem;
+        padding: 10px, 20px;
+    }
+    ul li {
+        font-size: 0.95rem;
+    }
+    footer{
+        font-size: 0.8rem;
+        p{
+            color: #fff 
+       };
+    }
+}
