@@ -84,7 +84,7 @@ footer {
 .boy{
     width: 200px;
     height: 200px;
-}
+} 
 .set{
     display: flex;
     flex-direction: column;
@@ -92,6 +92,18 @@ footer {
 .aud{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 40px;
+   
+    p{
+        color: white;
+        margin-top: 12px;
+    }
+    a{
+          background: linear-gradient(to right, #bb9457, #e9c46a);
+    }
 }
 .inst{
     display: flex;
@@ -103,6 +115,18 @@ footer {
         width: 70px;
         height: auto;
     }
+}
+.instructor{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    
+}
+#footer{
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 0;
 }
 @media (max-width: 600px) {
     header h1{
@@ -134,4 +158,18 @@ footer {
             color: #fff 
        };
     }
+    .aud{
+        audio{
+            width: 200px;
+        }
+    }
+}
+
+@media (max-width) {
+    .aud{
+        audio{
+            width: 20px;
+        }
+    }
+    
 }
