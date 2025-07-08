@@ -125,8 +125,10 @@ footer {
 }
 #footer{
     margin-bottom: 0;
-    position: absolute;
+    /* position: absolute;
     bottom: 0;
+    color: white;
+} */
 }
 @media (max-width: 600px) {
     header h1{
