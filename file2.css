@@ -3,19 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+html, body{
+    height: 100%;
+}
 
 body{
     font-family: 'Segoe UI', sans-serif;
     line-height: 1.6;
     background-color: #ffff;
     color: #222;
-    padding:0 20px;
+    /* padding:0 20px; */
+    display: flex;
+    flex-direction: column;
 }
 
 header{
     text-align: center;
-    padding: 20px 5px;
-    background: linear-gradient(to right, #bb9457, #e9c46a);
+    padding: 30px 4px;
+    background:linear-gradient(to right, #bb9457, #e9c46a);
     color: #fff;
     h1{
         margin-bottom: 10px;
@@ -46,6 +51,7 @@ header{
     display: flex;
     flex-direction: column;
     text-decoration: double;
+    flex: 1;
 }
 .first_box{
     display: flex;
@@ -59,11 +65,13 @@ header{
 .features{
     box-sizing: border-box;
     background-color: black;
-    width:600px;
+    width: 100%;
+    max-width:600px;
     height: auto;
     gap: 5px;
     padding: 20px 35px;
-    border-radius: 7px;
+    border-radius:1px;
+    margin: 0 auto;
     p{
         color: #fff;
     }
@@ -71,10 +79,12 @@ header{
 .about{
     box-sizing: border-box;
   background: linear-gradient(to right, #bb9457, #e9c46a);
-     width:600px;
+     width:100%;
+     max-width: 600px;
      padding: 20px 35px;
-     border-radius: 7px;
+     border-radius: 1px;
      height: auto;
+     margin: 0 auto;
     ul{
         color: #fff;
     }
@@ -94,8 +104,10 @@ header{
     background-color: black;
     padding: 5px 35px;
     border-radius: 7px;
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
     height: auto;
+    margin: 0 auto;
     ul{
         color: #fff;
     }
@@ -105,9 +117,11 @@ header{
 background: linear-gradient(to right, #bb9457, #e9c46a);
     padding: 20px 35px;
     color: #fff;
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
     border-radius: 7px;
     height: auto;
+    margin: 0 auto;
 }
 .third_box{
     display: flex;
@@ -123,18 +137,22 @@ background: linear-gradient(to right, #bb9457, #e9c46a);
     background-color: black;
     padding: 20px 35px;
     color: #fff;
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
     border-radius: 7px;
     height: auto;
+    margin: 0 auto;
 }
 .instructor{
     box-sizing: border-box;
  background: linear-gradient(to right, #bb9457, #e9c46a);
     padding: 20px 35px;
     color: #fff;
-    width: 600px;
+    width:100%;
+    max-width: 600px;
     border-radius: 7px;
     height: auto;
+    margin: 0 auto;
     .inst{
            display: flex;
     flex-direction: row;
@@ -242,5 +260,9 @@ background: linear-gradient(to right, #bb9457, #e9c46a);
     background: linear-gradient(to right, #bb9457, #e9c46a);
     width: 100%;
 }
+.aud{
+    audio{
+        width: 60%;
+    }}
         
     }
