@@ -14,7 +14,7 @@ body{
 
 header{
     text-align: center;
-    padding: 20px 10px;
+    padding: 20px 5px;
     background: linear-gradient(to right, #bb9457, #e9c46a);
     color: #fff;
     h1{
@@ -35,7 +35,7 @@ header{
 }
 
 .hero-image{
-    max-width: 150px;
+    max-width: 200px;
     height: auto;
     margin-bottom: 20px;
     border-radius: 12px;
@@ -60,6 +60,7 @@ header{
     box-sizing: border-box;
     background-color: black;
     width:600px;
+    height: auto;
     gap: 5px;
     padding: 20px 35px;
     border-radius: 7px;
@@ -69,10 +70,11 @@ header{
 }
 .about{
     box-sizing: border-box;
-background: linear-gradient(to right, #bb9457, #e9c46a);
+  background: linear-gradient(to right, #bb9457, #e9c46a);
      width:600px;
      padding: 20px 35px;
      border-radius: 7px;
+     height: auto;
     ul{
         color: #fff;
     }
@@ -82,6 +84,7 @@ background: linear-gradient(to right, #bb9457, #e9c46a);
     flex-direction: row;
     gap: 20px;
     margin-top: 20px;
+    height: auto;
     h2{
           color: #fff;
     }
@@ -89,9 +92,10 @@ background: linear-gradient(to right, #bb9457, #e9c46a);
 .format{
     box-sizing: border-box;
     background-color: black;
-    padding: 20px 35px;
+    padding: 5px 35px;
     border-radius: 7px;
     width: 600px;
+    height: auto;
     ul{
         color: #fff;
     }
@@ -103,6 +107,7 @@ background: linear-gradient(to right, #bb9457, #e9c46a);
     color: #fff;
     width: 600px;
     border-radius: 7px;
+    height: auto;
 }
 .third_box{
     display: flex;
@@ -120,6 +125,7 @@ background: linear-gradient(to right, #bb9457, #e9c46a);
     color: #fff;
     width: 600px;
     border-radius: 7px;
+    height: auto;
 }
 .instructor{
     box-sizing: border-box;
@@ -128,6 +134,7 @@ background: linear-gradient(to right, #bb9457, #e9c46a);
     color: #fff;
     width: 600px;
     border-radius: 7px;
+    height: auto;
     .inst{
            display: flex;
     flex-direction: row;
@@ -135,13 +142,13 @@ background: linear-gradient(to right, #bb9457, #e9c46a);
         img{
         width: 45px;
         height: auto;
-        border-radius: 20px;
+        border-radius: 25px;
         margin-right: 5px;
     }
         }
     }
 
-    footer{
+    .aud{
         display: flex;
         flex-direction: column;
          align-items: center;
@@ -152,6 +159,7 @@ background: linear-gradient(to right, #bb9457, #e9c46a);
         color: #fff;
         padding: 20px 35px;
         gap: 10px;
+        width:100%;
         p{
             margin-bottom: 10px;
             margin-top: 10px;
@@ -163,4 +171,76 @@ background: linear-gradient(to right, #bb9457, #e9c46a);
              padding: 12px 25px;
              text-decoration: none;
         }
+    }
+    footer{
+        width: 100%;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    @media (max-width:600px) {
+
+        header{
+            width: 100%;
+        }
+     .content{
+    display: flex;
+    flex-direction: column;
+    text-decoration: double;
+}
+.first_box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.features{
+    box-sizing: border-box;
+    box-shadow:#222;
+    background-color: black;
+    width:100%;
+}
+.about{
+    box-sizing: border-box;
+background: linear-gradient(to right, #bb9457, #e9c46a);
+     width:100%;
+}
+.second_box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.format{
+    box-sizing: border-box;
+    box-shadow: #222;
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+.learn{
+    box-sizing: border-box;
+    box-shadow: #222;
+    background: linear-gradient(to right, #bb9457, #e9c46a);
+    width: 100%;    
+}
+.third_box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.class{
+    box-sizing: border-box;
+    box-shadow: #222;
+    background-color: black;
+    width: 100%;
+}
+.instructor{
+    box-sizing: border-box;
+    box-shadow: #222;
+    background: linear-gradient(to right, #bb9457, #e9c46a);
+    width: 100%;
+}
+        
     }
