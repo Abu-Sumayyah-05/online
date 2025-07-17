@@ -7,7 +7,10 @@
 body{
     font-family: 'Segoe UI', sans-serif;
     line-height: 1.6;
-    background-color: #ffff;
+      background-image:url('./4bc552712ea9f0942bbc3dec36e65454.jpg');
+    background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
     color: #222;
     /* padding:0 20px; */
     display: flex;
@@ -189,7 +192,7 @@ background: linear-gradient(to right, #bb9457, #e9c46a);
     }
     footer{
         width: 100%;
-        color: black;
+        color: #fff;
         display: flex;
         justify-content: center;
         align-items: center;
