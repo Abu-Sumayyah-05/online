@@ -199,7 +199,7 @@ background: linear-gradient(to right, #bb9457, #e9c46a);
         text-align: center;
     }
 
-    @media (max-width:650px) {
+    @media (max-width:600px) {
 
         header{
             width: 100%;
@@ -268,6 +268,12 @@ background: linear-gradient(to right, #bb9457, #e9c46a);
     audio{
         width: 60%;
     }}
+        img{
+        width: 45px;
+        height: auto;
+        border-radius: 25px;
+        margin-right: 5px;
+    }
 
         
     }
