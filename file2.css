@@ -199,7 +199,7 @@ background: linear-gradient(to right, #bb9457, #e9c46a);
         text-align: center;
     }
 
-    @media (max-width:600px) {
+    @media (max-width:650px) {
 
         header{
             width: 100%;
@@ -212,13 +212,14 @@ background: linear-gradient(to right, #bb9457, #e9c46a);
 .first_box{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 0;
+    margin: 0;
 }
 .features{
     box-sizing: border-box;
     box-shadow:#222;
     background-color: black;
-    width:100%;
+    width: 100%;
 }
 .about{
     box-sizing: border-box;
@@ -228,7 +229,8 @@ background: linear-gradient(to right, #bb9457, #e9c46a);
 .second_box{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 0;
+    margin: 0;
 }
 .format{
     box-sizing: border-box;
@@ -246,7 +248,8 @@ background: linear-gradient(to right, #bb9457, #e9c46a);
 .third_box{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 0;
+    margin: 0;
 }
 .class{
     box-sizing: border-box;
@@ -261,8 +264,10 @@ background: linear-gradient(to right, #bb9457, #e9c46a);
     width: 100%;
 }
 .aud{
+    margin: 0;
     audio{
         width: 60%;
     }}
+
         
     }
